@@ -1,0 +1,145 @@
+---
+title: "DiMeN DTP Data Management Session - March 2021"
+author: "Mark Dunning"
+output:
+  ioslides_presentation: default
+  slidy_presentation: default
+  beamer_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+ 
+# Introduction and Motivation
+
+
+## Reproducibility Crisis
+
+![](images/rep_crisis.PNG)
+
+
+## Reproducible Research
+
+- At some point in the future, someone, somewhere, might want to repeat your analysis for themselves or re-use your data. 
+    + which will most likely be ***you!***
+- Assuming that you'll be able to remember all the steps involved is dangerous, so making sure that everything is well-documented is key. 
+
+## Why share data?
+
+- Build research profile
+- Demonstrate validity of results
+- Contribute to the community
+- Because you have to!
+
+## How to share data
+
+- Domain-specific repository is best
+- https://www.re3data.org/ Registry of Research Data Repositories
+    + Gene Expression Omnibus
+    + ArrayExpress
+    + European Genome Archive
+- Your website
+- Figshare, Zenodo, institutional repository
+- **Have a data management plan in place from the start**
+
+## Things can go wrong
+
+<img src="images/cruk_fire.PNG" style="width: 75%; display: block; margin-left: auto; margin-right: auto;"/>
+
+Fire at CRUK Manchester - April 2017
+
+## Things can go wrong
+
+<img src="images/backpack.PNG" style="width: 75%; display: block; margin-left: auto; margin-right: auto;"/>
+
+
+
+
+## Data Backup
+
+<img src="images/cruk_backup.PNG" style="width: 75%; display: block; margin-left: auto; margin-right: auto;"/>
+
+Credit: CRUK_CI Bioinformatics Core 
+
+
+## Data Backup
+
+<img src="images/cruk_backup2.PNG" style="width: 75%; display: block; margin-left: auto; margin-right: auto;"/>
+
+Credit: CRUK_CI Bioinformatics Core   
+
+## Version Control
+
+<img src="images/phd101212s.gif" style="width: 35%; display: block; margin-left: auto; margin-right: auto;"/>
+
+Credit: PhD Comics
+
+
+## Version Control
+
+<img src="images/ci_version_control.PNG" style="width: 75%; display: block; margin-left: auto; margin-right: auto;"/>
+
+Credit: CRUK_CI Bioinformatics Core    
+ 
+## More advanced Options
+
+<img src="https://www.molecularecologist.com/wp-content/uploads/2013/11/github-logo.jpg" style="width: 25%; display: block; margin-left: auto; margin-right: auto;"/>
+
+
+- Consider learning about git and github for version control
+- Automatic tracking of changes, person that made the changes and the reasons for it
+- Interacts nicely with RStudio
+- For more, see here:- [Friendly Github Intro](https://kirstiejane.github.io/friendly-github-intro/)
+    
+## Naming of files and directories
+
+<img src="https://blueprint-api-production.s3.amazonaws.com/uploads/story/thumbnail/52409/bafd8974-45c8-4d7a-a954-54971811624d.jpg" style="width: 75%; display: block; margin-left: auto; margin-right: auto;"/>
+    
+
+## Naming of files and directories
+
+<img src="images/ci_file_name.PNG" style="width: 75%; display: block; margin-left: auto; margin-right: auto;"/>
+
+Credit: CRUK_CI Bioinformatics Core
+
+## Naming of files and directories
+
+<img src="images/cruk_folder_structure.PNG" style="width: 45%; display: block; margin-left: auto; margin-right: auto;"/>
+
+Credit: CRUK_CI Bioinformatics Core
+
+
+## The files themselves
+
+- Before attempting analysis, make sure your files don't look like this:-
+
+<img src="images/oh-the-horror.png" style="width: 100%; display: block; margin-left: auto; margin-right: auto;"/>
+
+
+
+## Should we stop using Excel completely?
+
+- ....Not neccesarily.
+- Often much more convenient to eye-ball a spreadsheet and get an overall impression of your data. 
+- But they have *limitations* making them not ideal for large-scale analyses. 
+- Doing things by-hand only invites you to make copy-and-paste errors etc
+
+## More Information
+
+https://datacarpentry.org/spreadsheet-ecology-lesson/
+
+<img src="images/dc.PNG" style="width: 100%; display: block; margin-left: auto; margin-right: auto;"/>
+
+## Learn R!
+
+![](images/report.PNG)
+
+
+## Discussion
+
+- In your breakout groups discuss
+    + what kind of research data do you have?
+    + what backup strategies do you have?
+    + how do you share files / data with collaborators?
+    
