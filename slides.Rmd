@@ -146,4 +146,4 @@ https://datacarpentry.org/spreadsheet-ecology-lesson/
     + what backup strategies do you have?
     + do you use *version control*?
     + how do you share files / data with collaborators?
-    
+    + any other data management tips that you have found useful?
