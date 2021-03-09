@@ -24,6 +24,8 @@ knitr::opts_chunk$set(echo = FALSE)
 - At some point in the future, someone, somewhere, might want to repeat your analysis for themselves or re-use your data. 
     + which will most likely be ***you!***
 - Assuming that you'll be able to remember all the steps involved is dangerous, so making sure that everything is well-documented is key. 
+- Florian Markowetz - 5 Selfish Reasons to work reproducibly
+  + [https://youtu.be/Is15CMVPHas](https://youtu.be/Is15CMVPHas)
 
 ## Why share data?
 
@@ -31,6 +33,7 @@ knitr::opts_chunk$set(echo = FALSE)
 - Demonstrate validity of results
 - Contribute to the community
 - Because you have to!
+
 
 ## How to share data
 
@@ -141,5 +144,6 @@ https://datacarpentry.org/spreadsheet-ecology-lesson/
 - In your breakout groups discuss
     + what kind of research data do you have?
     + what backup strategies do you have?
+    + do you use *version control*?
     + how do you share files / data with collaborators?
     
